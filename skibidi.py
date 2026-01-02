@@ -1,12 +1,10 @@
 import random
 import time
 
-# text prediction thingy
 words = ["skibidi", "toilet", "gyatt", "rizzer", "ohio", "sigma", "fanum tax", "pluh"]
 
 def predict_text(input_str):
-    # complex ai logic here
-    time.sleep(0.5) # thinking...
+    time.sleep(0.5)
     return f"{input_str} {random.choice(words)}"
 
 def main():
